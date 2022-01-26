@@ -7,7 +7,7 @@ A regular language can be defined by either Determistic Finite Automata (DFA) or
 This tool can help to test it.
 
 ### DFA Representation
-We can write DFA as a four-tuple (S, Σ, δ, s0, SA):
+We can write DFA as a five-tuple (S, Σ, δ, s0, SA):
 
 - S is the finite set of states in DFA
 - Σ is the vocabulary
