@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+    id "io.freefair.lombok" version "6.3.0"
+}
+
+group 'com.github.tzzzzzb'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation 'org.json:json:20211205'
+    implementation 'commons-cli:commons-cli:1.5.0'
+    implementation 'com.github.mifmif:generex:1.0.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    getMainClass().set('com.github.tzzzzzb.Main')
+}
