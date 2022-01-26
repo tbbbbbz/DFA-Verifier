@@ -21,7 +21,7 @@ It's the normal Regex format
 ### Example
 For regex and DFA like this:
 
-<img src="statics/exp0.jpeg" width="300" alt="">
+<img src="statics/exp0.jpeg" width="500" alt="">
 
 We can have a json file with such input:
 ```JSON
