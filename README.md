@@ -8,11 +8,12 @@ This tool can help to test it.
 
 ### DFA Representation
 We can write DFA as a four-tuple (S, Σ, δ, s0, SA):
-S is the finite set of states in DFA
-Σ is the vocabulary
-δ is the function or the edges in DFA
-s0 is the starting state
-SA is the set of accepting states
+
+- S is the finite set of states in DFA
+- Σ is the vocabulary
+- δ is the function or the edges in DFA
+- s0 is the starting state
+- SA is the set of accepting states
 
 
 ### RE Representation
