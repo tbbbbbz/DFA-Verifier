@@ -1,5 +1,5 @@
 {
-  "regex": "(ab)+(a|b)∗",
+  "regex": "(ab)+(a|b)*",
   "S": ["s0", "s1", "s2"],
   "vocabulary": ["a", "b"],
   "function": [

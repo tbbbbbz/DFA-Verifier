@@ -40,4 +40,18 @@ class DFATest {
         TestResult result = dfa.verify(100);
         assertEquals(false, result.getPass());
     }
+
+    @Test
+    void verifyDFAStructure2() throws IOException {
+        DFA dfa = new DFA(new File(DFAFileRepo, "2.json").getAbsolutePath());
+        TestResult result = dfa.verify(100);
+        assertEquals(true, result.getPass());
+    }
+
+    @Test
+    void verifyDFAStructure3() throws IOException {
+        DFA dfa = new DFA(new File(DFAFileRepo, "3.json").getAbsolutePath());
+        TestResult result = dfa.verify(100);
+        assertEquals(true, result.getPass());
+    }
 }
